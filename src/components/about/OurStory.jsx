@@ -26,7 +26,7 @@ export default function OurStory() {
             </h2>
 
             <p className="text-text-light leading-relaxed mt-6">
-              REEDIYON Smart Lithium Battery was founded in 2019 in Jaipur,
+              REEDYION Smart Lithium Battery was founded in 2019 in Jaipur,
               Rajasthan, with a clear mission: to make high-quality, affordable
               lithium-ion battery technology accessible to Indian businesses and
               consumers.
@@ -73,7 +73,7 @@ export default function OurStory() {
             <div className="rounded-2xl overflow-hidden border border-border">
               <img
                 src="https://images.unsplash.com/photo-1581091012184-7e0cdfbb6797?q=80&w=1000&auto=format&fit=crop"
-                alt="REEDIYON manufacturing facility"
+                alt="REEDYION manufacturing facility"
                 className="w-full h-[380px] object-cover"
               />
             </div>

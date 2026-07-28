@@ -38,7 +38,7 @@ export default function AboutCTA() {
             variants={itemVariants}
             className="text-3xl md:text-5xl font-bold text-white font-heading mb-4 leading-tight"
           >
-            Ready to Partner with REEDIYON?
+            Ready to Partner with REEDYION?
           </motion.h2>
 
           <motion.p

@@ -204,7 +204,7 @@ export const ProductDetailsModal = ({
   );
 };
 
-// --- INQUIRY MODAL COMPONENT ---
+
 // --- INQUIRY MODAL COMPONENT ---
 export const InquiryModal = ({ product, isOpen, onClose }) => {
   const [isSubmitting, setIsSubmitting] = useState(false);

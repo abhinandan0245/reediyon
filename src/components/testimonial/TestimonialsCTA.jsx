@@ -17,7 +17,7 @@ export default function TestimonialsCTA() {
             Join 500+ Satisfied Customers
           </h2>
           <p className="text-zinc-400 mb-8 max-w-2xl mx-auto">
-            Experience REEDIYON quality for yourself. Get a free consultation
+            Experience REEDYION quality for yourself. Get a free consultation
             and bulk pricing today.
           </p>
           <div className="flex flex-wrap justify-center gap-4">

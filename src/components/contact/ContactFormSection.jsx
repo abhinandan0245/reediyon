@@ -241,7 +241,7 @@ export default function ContactFormSection() {
               </div>
               <div>
                 <h4 className="text-white font-bold mb-1">
-                  REEDIYON Smart Lithium Battery
+                  REEDYION Smart Lithium Battery
                 </h4>
                 <p className="text-zinc-400 text-sm">
                   S-12/13, Chandra Nagar, Kalwar Road, Jhotwara, Jaipur,

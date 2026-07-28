@@ -6,7 +6,7 @@ const testimonials = [
   {
     id: 1,
     quote:
-      "Reediyon's smart lithium batteries completely transformed our EV fleet's efficiency. The fast charging capabilities and long cycle life have significantly reduced our operational downtime and maintenance costs.",
+      "REEDYION's smart lithium batteries completely transformed our EV fleet's efficiency. The fast charging capabilities and long cycle life have significantly reduced our operational downtime and maintenance costs.",
     name: "Ramesh Sharma",
     role: "Fleet Manager, EcoRide India",
     rating: 5,
@@ -14,7 +14,7 @@ const testimonials = [
   {
     id: 2,
     quote:
-      "Switching to Reediyon for our solar storage setup was the best decision. The advanced BMS ensures safety, and the power output is incredibly consistent even during peak load hours. Highly recommended!",
+      "Switching to REEDYION for our solar storage setup was the best decision. The advanced BMS ensures safety, and the power output is incredibly consistent even during peak load hours. Highly recommended!",
     name: "Vikram Mehta",
     role: "Operations Head, SolarTech Solutions",
     rating: 5,

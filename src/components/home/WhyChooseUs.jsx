@@ -90,7 +90,7 @@ export default function WhyChooseUs() {
             Premium Quality, Lasting Power
           </span>
           <h2 className="section-title mt-4 mb-4">
-            Why Choose <span className="text-primary">REEDIYON?</span>
+            Why Choose <span className="text-primary">REEDYION?</span>
           </h2>
           <p className="text-text-muted text-lg">
             Our smart lithium batteries are engineered with cutting-edge

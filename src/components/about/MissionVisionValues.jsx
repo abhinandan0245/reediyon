@@ -114,7 +114,7 @@ export default function MissionVisionValues() {
                 To become India's most trusted lithium battery brand —
                 synonymous with quality, innovation, and the electric
                 revolution. We envision a future where every EV, solar system,
-                and energy storage application runs on a REEDIYON battery.
+                and energy storage application runs on a REEDYION battery.
               </p>
             </div>
           </motion.div>

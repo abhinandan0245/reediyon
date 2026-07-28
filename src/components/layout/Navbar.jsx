@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 import {
   Phone,
   Mail,
@@ -48,6 +48,7 @@ const linkVariants = {
 export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const navigate = useNavigate()
 
   useEffect(() => {
     const handleScroll = () => setIsScrolled(window.scrollY > 20);
@@ -82,16 +83,16 @@ export default function Navbar() {
 
           <div className="flex items-center gap-3">
             <a
-              href="mailto:info@reediyonbattery.com"
+              href="mailto:info@REEDYIONbattery.com"
               className="flex items-center gap-1.5 hover:text-green-200 transition-colors"
             >
               <Mail size={14} />
-              <span className="tracking-wide">info@reediyonbattery.com</span>
+              <span className="tracking-wide">info@REEDYIONbattery.com</span>
             </a>
             <span className="opacity-50">|</span>
             <div className="flex items-center gap-1.5">
               <Globe size={14} />
-              <span className="tracking-wide">www.reediyonbattery.com</span>
+              <span className="tracking-wide">www.REEDYIONbattery.com</span>
             </div>
           </div>
         </div>
@@ -113,7 +114,7 @@ export default function Navbar() {
           </motion.div>
           <div className="flex flex-col justify-center">
             <h2 className="font-serif text-lg lg:text-xl font-bold tracking-widest text-white">
-              REEDIYON
+              REEDYION
             </h2>
             <p className="text-[8px] lg:text-[8px] font-bold uppercase tracking-[0.35em] text-green-500">
               Smart Lithium Battery
@@ -155,6 +156,7 @@ export default function Navbar() {
               variant="primary"
               size="sm"
               className="shadow-[0_0_15px_rgba(34,197,94,0.4)]"
+              onClick={() => navigate("/contact")}
             >
               Get Free Quote
             </Button>

@@ -13,9 +13,9 @@ const infoData = [
   {
     icon: <Mail size={20} />,
     title: "Email Us",
-    details: ["info@reediyonbattery.com", "www.reediyonbattery.com"],
+    details: ["info@REEDYIONbattery.com", "www.REEDYIONbattery.com"],
     action: "Send Email",
-    link: "mailto:info@reediyonbattery.com",
+    link: "mailto:info@REEDYIONbattery.com",
   },
   {
     icon: <MapPin size={20} />,

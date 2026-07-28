@@ -6,7 +6,7 @@ const testimonialsData = [
   {
     id: 1,
     tag: "EV Manufacturer",
-    text: "REEDIYON has been our trusted battery supplier for over 2 years. Their lithium packs are reliable, well-tested, and come with excellent after-sales support. We've never faced a quality issue and the bulk pricing is very competitive. Highly recommended for EV manufacturers.",
+    text: "REEDYION has been our trusted battery supplier for over 2 years. Their lithium packs are reliable, well-tested, and come with excellent after-sales support. We've never faced a quality issue and the bulk pricing is very competitive. Highly recommended for EV manufacturers.",
     author: "Rajesh Sharma",
     role: "Director, GreenWheels EV",
     location: "Delhi",
@@ -15,7 +15,7 @@ const testimonialsData = [
   {
     id: 2,
     tag: "Solar Installer",
-    text: "We switched to REEDIYON's solar batteries for all our residential installations last year and the performance has been outstanding. Their technical team helped us choose the right capacity for each project and delivery was always on time, even for large orders.",
+    text: "We switched to REEDYION's solar batteries for all our residential installations last year and the performance has been outstanding. Their technical team helped us choose the right capacity for each project and delivery was always on time, even for large orders.",
     author: "Priya Mehta",
     role: "Operations Manager, SolarTech Solutions",
     location: "Mumbai",
@@ -24,7 +24,7 @@ const testimonialsData = [
   {
     id: 3,
     tag: "Industrial B2B",
-    text: "The OEM manufacturing quality is top-notch. REEDIYON delivered 500 custom battery packs with perfect spec compliance — on schedule and within budget. The BMS programming was exactly as we specified. A professional, trustworthy partner.",
+    text: "The OEM manufacturing quality is top-notch. REEDYION delivered 500 custom battery packs with perfect spec compliance — on schedule and within budget. The BMS programming was exactly as we specified. A professional, trustworthy partner.",
     author: "Anil Gupta",
     role: "Purchase Head, PowerGrid Industries",
     location: "Pune",
@@ -33,7 +33,7 @@ const testimonialsData = [
   {
     id: 4,
     tag: "EV Fleet",
-    text: "We run a fleet of 80 electric cabs in Jaipur and every single one runs on REEDIYON batteries. The range consistency across the fleet is impressive. They gave us a great fleet pricing deal and the warranty support has been hassle-free.",
+    text: "We run a fleet of 80 electric cabs in Jaipur and every single one runs on REEDYION batteries. The range consistency across the fleet is impressive. They gave us a great fleet pricing deal and the warranty support has been hassle-free.",
     author: "Sunil Verma",
     role: "Founder, EcoCabs",
     location: "Jaipur",
@@ -42,7 +42,7 @@ const testimonialsData = [
   {
     id: 5,
     tag: "Solar Developer",
-    text: "Outstanding product quality and service. I was initially skeptical about switching from a national brand to REEDIYON, but after one project I was convinced. The batteries have performed flawlessly and the local Jaipur presence means fast support.",
+    text: "Outstanding product quality and service. I was initially skeptical about switching from a national brand to REEDYION, but after one project I was convinced. The batteries have performed flawlessly and the local Jaipur presence means fast support.",
     author: "Kavita Singh",
     role: "CEO, BrightHome Solar",
     location: "Ahmedabad",
@@ -51,7 +51,7 @@ const testimonialsData = [
   {
     id: 6,
     tag: "Robotics / Custom",
-    text: "We needed a very specific custom battery pack for our AGV robots — unusual voltage, tight dimensions, and a precise BMS. REEDIYON's engineering team handled it perfectly. Delivery was on schedule and all 30 units passed our QA tests first time.",
+    text: "We needed a very specific custom battery pack for our AGV robots — unusual voltage, tight dimensions, and a precise BMS. REEDYION's engineering team handled it perfectly. Delivery was on schedule and all 30 units passed our QA tests first time.",
     author: "Manoj Patel",
     role: "Technical Director, Precision Robotics",
     location: "Surat",

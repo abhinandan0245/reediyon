@@ -8,7 +8,7 @@ const policySections = [
     icon: <Database className="text-green-500" size={24} />,
     title: "1. Information We Collect",
     content:
-      "When you interact with REEDIYON Smart Lithium Battery (via website inquiries, quotes, or direct contact), we may collect personal information such as your full name, email address, phone number, company name, and location. We also collect non-personal diagnostic data automatically, such as IP addresses and browsing behavior, to improve our website experience.",
+      "When you interact with REEDYION Smart Lithium Battery (via website inquiries, quotes, or direct contact), we may collect personal information such as your full name, email address, phone number, company name, and location. We also collect non-personal diagnostic data automatically, such as IP addresses and browsing behavior, to improve our website experience.",
   },
   {
     id: "usage",
@@ -22,7 +22,7 @@ const policySections = [
     icon: <Shield className="text-green-500" size={24} />,
     title: "3. Data Sharing & Protection",
     content:
-      "REEDIYON strictly does not sell, rent, or trade your personal information. We may only share necessary details with trusted third-party logistics partners to facilitate the delivery of your battery packs. All data is processed using industry-standard encryption protocols to ensure your competitive business information remains secure.",
+      "REEDYION strictly does not sell, rent, or trade your personal information. We may only share necessary details with trusted third-party logistics partners to facilitate the delivery of your battery packs. All data is processed using industry-standard encryption protocols to ensure your competitive business information remains secure.",
   },
   {
     id: "security",
@@ -36,7 +36,7 @@ const policySections = [
     icon: <Mail className="text-green-500" size={24} />,
     title: "5. Contact Us Regarding Privacy",
     content:
-      "If you have any questions, concerns, or requests regarding this Privacy Policy or how we handle your data, please contact our compliance team at info@reediyonbattery.com or write to us at our headquarters: S-12/13, Chandra Nagar, Kalwar Road, Jhotwara, Jaipur, Rajasthan - 302012.",
+      "If you have any questions, concerns, or requests regarding this Privacy Policy or how we handle your data, please contact our compliance team at info@REEDYIONbattery.com or write to us at our headquarters: S-12/13, Chandra Nagar, Kalwar Road, Jhotwara, Jaipur, Rajasthan - 302012.",
   },
 ];
 
@@ -100,7 +100,7 @@ export default function Privacy() {
               <p className="text-zinc-300 leading-relaxed text-lg">
                 At{" "}
                 <span className="text-green-500 font-semibold">
-                  REEDIYON Smart Lithium Battery
+                  REEDYION Smart Lithium Battery
                 </span>
                 , we are committed to protecting the privacy and security of our
                 clients, partners, and website visitors. This Privacy Policy

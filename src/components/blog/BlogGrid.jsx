@@ -20,7 +20,7 @@ const blogData = [
     category: "Battery Technology",
     date: "September 18, 2024",
     readTime: "8 min read",
-    author: "Reediyon Technical Team",
+    author: "REEDYION Technical Team",
     image: "/placeholder-1.jpg", // Replace with actual image path
     tags: ["LiFePO4", "NMC", "Battery Chemistry", "Tech Guide"],
     isFeatured: true,

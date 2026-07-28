@@ -60,7 +60,7 @@ export default function Footer() {
               </div>
               <div className="flex flex-col justify-center">
                 <h2 className="font-serif text-2xl tracking-widest text-white">
-                  REEDIYON
+                  REEDYION
                 </h2>
                 <p className="text-[8px] font-bold uppercase tracking-[0.35em] text-primary">
                   Smart Lithium Battery
@@ -178,10 +178,10 @@ export default function Footer() {
               <li className="flex items-center gap-3 text-text-muted text-sm">
                 <Mail size={18} className="text-primary flex-shrink-0" />
                 <a
-                  href="mailto:info@reediyonbattery.com"
+                  href="mailto:info@REEDYIONbattery.com"
                   className="hover:text-primary transition-colors break-all"
                 >
-                  info@reediyonbattery.com
+                  info@REEDYIONbattery.com
                 </a>
               </li>
             </ul>
@@ -191,7 +191,7 @@ export default function Footer() {
         {/* Bottom Copyright Bar */}
         <div className="border-t border-white/10 pt-6 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-text-muted text-xs">
-            © {new Date().getFullYear()} Reediyon Battery. All rights reserved.
+            © {new Date().getFullYear()} REEDYION Battery. All rights reserved.
           </p>
           <div className="flex items-center gap-4 text-xs text-text-muted">
             <a href="/privacy-policy" className="hover:text-white transition-colors">

@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
 import { ArrowRight, ChevronLeft, ChevronRight } from "lucide-react";
 import Button from "../ui/Button";
@@ -90,6 +91,7 @@ function useSlidesPerView() {
 }
 
 export default function FeaturedProducts() {
+  const navigate = useNavigate();
   const slidesPerView = useSlidesPerView();
   const maxIndex = Math.max(0, products.length - slidesPerView);
   const [index, setIndex] = useState(0);
@@ -97,7 +99,7 @@ export default function FeaturedProducts() {
 
   useEffect(() => {
     if (index > maxIndex) setIndex(maxIndex);
-  }, [maxIndex]); // eslint-disable-line
+  }, [maxIndex, index]);
 
   useEffect(() => {
     if (isHovered) return;
@@ -136,7 +138,11 @@ export default function FeaturedProducts() {
             viewport={{ once: true, margin: "-100px" }}
             transition={{ duration: 0.6 }}
           >
-            <Button variant="outline" rightIcon={<ArrowRight size={18} />}>
+            <Button
+              variant="outline"
+              rightIcon={<ArrowRight size={18} />}
+              onClick={() => navigate("/products")}
+            >
               View All Products
             </Button>
           </motion.div>
@@ -199,6 +205,8 @@ export default function FeaturedProducts() {
                       fullWidth
                       shape="rectangle"
                       size="md"
+                      onClick={() => navigate("/contact")}
+                      className="relative z-50 cursor-pointer"
                     >
                       Send Inquiry
                     </Button>

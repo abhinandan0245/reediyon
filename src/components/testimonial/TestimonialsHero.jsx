@@ -21,7 +21,7 @@ export default function TestimonialsHero() {
             What Our Clients Say
           </h1>
           <p className="text-base md:text-lg text-zinc-400 mb-8 font-medium max-w-2xl">
-            Real experiences from businesses across India who trust REEDIYON for
+            Real experiences from businesses across India who trust REEDYION for
             their battery needs.
           </p>
           <div className="flex items-center gap-2 text-sm text-zinc-500">

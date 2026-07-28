@@ -6,7 +6,7 @@ const timeline = [
     year: "2019",
     title: "Company Founded",
     description:
-      "REEDIYON was established in Jaipur with a vision to bring advanced lithium technology to India's growing EV and solar markets.",
+      "REEDYION was established in Jaipur with a vision to bring advanced lithium technology to India's growing EV and solar markets.",
   },
   {
     year: "2020",

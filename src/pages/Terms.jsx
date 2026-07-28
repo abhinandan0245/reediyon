@@ -8,21 +8,21 @@ const termsSections = [
     icon: <FileText className="text-green-500" size={24} />,
     title: "1. Agreement to Terms",
     content:
-      "By accessing this website and purchasing products from REEDIYON Smart Lithium Battery, you agree to be bound by these Terms and Conditions and all applicable laws and regulations. If you disagree with any part of these terms, you are prohibited from using or accessing this site.",
+      "By accessing this website and purchasing products from REEDYION Smart Lithium Battery, you agree to be bound by these Terms and Conditions and all applicable laws and regulations. If you disagree with any part of these terms, you are prohibited from using or accessing this site.",
   },
   {
     id: "use-license",
     icon: <Scale className="text-green-500" size={24} />,
     title: "2. Intellectual Property",
     content:
-      "All content, logos, battery designs, technical specifications, and software on this website are the intellectual property of REEDIYON. You may not modify, copy, reproduce, or distribute any materials without our prior written consent.",
+      "All content, logos, battery designs, technical specifications, and software on this website are the intellectual property of REEDYION. You may not modify, copy, reproduce, or distribute any materials without our prior written consent.",
   },
   {
     id: "products",
     icon: <Zap className="text-green-500" size={24} />,
     title: "3. Product Usage & Safety",
     content:
-      "Our lithium-ion battery packs must be used, installed, and maintained strictly according to the provided technical manuals. REEDIYON is not liable for damages, injuries, or losses resulting from improper installation, unauthorized modifications, or usage beyond specified voltage and capacity limits.",
+      "Our lithium-ion battery packs must be used, installed, and maintained strictly according to the provided technical manuals. REEDYION is not liable for damages, injuries, or losses resulting from improper installation, unauthorized modifications, or usage beyond specified voltage and capacity limits.",
   },
   {
     id: "pricing",
@@ -36,7 +36,7 @@ const termsSections = [
     icon: <ShieldAlert className="text-green-500" size={24} />,
     title: "5. Limitation of Liability",
     content:
-      "In no event shall REEDIYON or its suppliers be liable for any consequential damages (including, without limitation, damages for loss of data or profit, or due to business interruption) arising out of the use or inability to use our products or website.",
+      "In no event shall REEDYION or its suppliers be liable for any consequential damages (including, without limitation, damages for loss of data or profit, or due to business interruption) arising out of the use or inability to use our products or website.",
   },
 ];
 
@@ -101,7 +101,7 @@ export default function Terms() {
               <p className="text-zinc-300 leading-relaxed text-lg">
                 Welcome to{" "}
                 <span className="text-green-500 font-semibold">
-                  REEDIYON Smart Lithium Battery
+                  REEDYION Smart Lithium Battery
                 </span>
                 . These terms and conditions outline the rules and regulations
                 for the use of our website and the purchase of our energy

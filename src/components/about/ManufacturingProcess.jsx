@@ -64,7 +64,7 @@ export default function ManufacturingProcess() {
           <span className="section-subtitle">How We Build</span>
           <h2 className="section-title mt-4">Our Manufacturing Process</h2>
           <p className="text-text-muted text-lg mt-4">
-            Every REEDIYON battery goes through a rigorous 6-step production
+            Every REEDYION battery goes through a rigorous 6-step production
             process to ensure peak performance and safety.
           </p>
         </motion.div>

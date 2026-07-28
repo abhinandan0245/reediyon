@@ -99,7 +99,7 @@ export default function AboutHero() {
           initial="hidden"
           animate="visible"
         >
-          About <span className="text-white">REEDIYON</span>
+          About <span className="text-white">REEDYION</span>
         </motion.h1>
 
         <motion.p
