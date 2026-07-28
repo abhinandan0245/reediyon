@@ -11,6 +11,9 @@ const footerLinks = {
     { name: "Blog", path: "/blog" },
     { name: "Testimonials", path: "/testimonials" },
     { name: "Contact", path: "/contact" },
+    { name: "Return-policy", path: "/return-policy" },
+    { name: "Warranty-policy", path: "/warranty-policy" },
+    { name: "FAQ", path: "/faq" },
   ],
   products: [
     { name: "E-Rickshaw Battery", path: "/products" },

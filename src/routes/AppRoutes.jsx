@@ -4,6 +4,9 @@ import { Routes, Route } from "react-router-dom";
 import Loader from "../components/layout/Loader";
 import MainLayout from "../components/layout/MainLayout";
 import Terms from "../pages/Terms";
+import ReturnsPolicy from "../pages/ReturnsPolicy";
+import WarrantyPolicy from "../pages/WarrantyPolicy";
+import FAQ from "../pages/FAQ";
 
 const Home = lazy(() => import("../pages/Home"));
 const About = lazy(() => import("../pages/About"));
@@ -36,6 +39,9 @@ export default function AppRoutes() {
 
           <Route path="/privacy-policy" element={<Privacy />} />
           <Route path="/terms-and-conditions" element={<Terms />} />
+          <Route path="/return-policy" element={<ReturnsPolicy />} />
+          <Route path="/warranty-policy" element={<WarrantyPolicy />} />
+          <Route path="/faq" element={<FAQ />} />
         </Route>
 
         <Route path="*" element={<NotFound />} />
