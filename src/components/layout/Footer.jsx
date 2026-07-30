@@ -154,8 +154,8 @@ export default function Footer() {
                   className="text-primary mt-1 flex-shrink-0 group-hover:animate-bounce"
                 />
                 <span>
-                  123 Energy Park, Industrial Area Phase 2, New Delhi, 110020,
-                  India
+                  S-12/13, Chandra Nagar, Kalwar Road
+                  Jhotwara, jaipur - 302012
                 </span>
               </li>
               <li className="flex items-start gap-3 text-text-muted text-sm">
@@ -176,6 +176,12 @@ export default function Footer() {
                   >
                     +91 98873 31153
                   </a>
+                  <a
+                    href="tel:+917878589871"
+                    className="hover:text-primary transition-colors"
+                  >
+                    +91 78785 89871
+                  </a>
                 </div>
               </li>
               <li className="flex items-center gap-3 text-text-muted text-sm">
@@ -184,7 +190,7 @@ export default function Footer() {
                   href="mailto:info@REEDYIONbattery.com"
                   className="hover:text-primary transition-colors break-all"
                 >
-                  info@REEDYIONbattery.com
+                  info@reediyonbattery.com
                 </a>
               </li>
             </ul>
@@ -197,11 +203,17 @@ export default function Footer() {
             © {new Date().getFullYear()} REEDYION Battery. All rights reserved.
           </p>
           <div className="flex items-center gap-4 text-xs text-text-muted">
-            <a href="/privacy-policy" className="hover:text-white transition-colors">
+            <a
+              href="/privacy-policy"
+              className="hover:text-white transition-colors"
+            >
               Privacy Policy
             </a>
             <span className="w-1 h-1 rounded-full bg-white/20" />
-            <a href="/terms-and-conditions" className="hover:text-white transition-colors">
+            <a
+              href="/terms-and-conditions"
+              className="hover:text-white transition-colors"
+            >
               Terms of Service
             </a>
           </div>
