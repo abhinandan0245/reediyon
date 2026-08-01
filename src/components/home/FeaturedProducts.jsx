@@ -160,7 +160,7 @@ export default function FeaturedProducts() {
         >
           <div className="overflow-hidden">
             <motion.div
-              className="flex"
+              className="flex items-stretch"
               animate={{ x: `-${index * (100 / slidesPerView)}%` }}
               transition={{
                 type: "tween",
@@ -175,42 +175,49 @@ export default function FeaturedProducts() {
                     flex: `0 0 ${100 / slidesPerView}%`,
                     boxSizing: "border-box",
                   }}
-                  className="px-3"
+                  className="px-3 flex"
                 >
-                  <Card
-                    image={product.image}
-                    badge={product.badge}
-                    title={product.title}
-                    description={product.description}
-                  >
-                    <div className="mt-4 mb-4 flex flex-col gap-2 rounded-xl bg-[#0a100d] border border-white/5 p-3 text-sm shadow-inner">
-                      <div className="flex items-center justify-between">
-                        <span className="text-text-muted">Capacity</span>
-                        <span className="font-semibold text-primary">
-                          {product.capacity}
-                        </span>
-                      </div>
-                      <div className="flex justify-between items-start gap-4">
-                        <span className="text-text-muted flex-shrink-0">
-                          Use Case
-                        </span>
-                        <span className="font-medium text-white text-right leading-tight">
-                          {product.useCase}
-                        </span>
-                      </div>
-                    </div>
-
-                    <Button
-                      variant="primary"
-                      fullWidth
-                      shape="rectangle"
-                      size="md"
-                      onClick={() => navigate("/contact")}
-                      className="relative z-50 cursor-pointer"
+                  {/* Container forces the Card to take full height */}
+                  <div className="w-full flex flex-col h-full">
+                    <Card
+                      image={product.image}
+                      badge={product.badge}
+                      title={product.title}
+                      description={product.description}
+                      className="h-full flex flex-col"
                     >
-                      Send Inquiry
-                    </Button>
-                  </Card>
+                      {/* mt-auto pushes the capacity specs and button to the absolute bottom */}
+                      <div className="mt-auto flex flex-col h-full justify-end pt-4">
+                        <div className="mb-4 flex flex-col gap-2 rounded-xl bg-[#0a100d] border border-white/5 p-3 text-sm shadow-inner">
+                          <div className="flex items-center justify-between">
+                            <span className="text-text-muted">Capacity</span>
+                            <span className="font-semibold text-primary">
+                              {product.capacity}
+                            </span>
+                          </div>
+                          <div className="flex justify-between items-start gap-4">
+                            <span className="text-text-muted flex-shrink-0">
+                              Use Case
+                            </span>
+                            <span className="font-medium text-white text-right leading-tight">
+                              {product.useCase}
+                            </span>
+                          </div>
+                        </div>
+
+                        <Button
+                          variant="primary"
+                          fullWidth
+                          shape="rectangle"
+                          size="md"
+                          onClick={() => navigate("/contact")}
+                          className="relative z-50 cursor-pointer"
+                        >
+                          Send Inquiry
+                        </Button>
+                      </div>
+                    </Card>
+                  </div>
                 </div>
               ))}
             </motion.div>

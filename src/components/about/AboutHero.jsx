@@ -89,7 +89,7 @@ export default function AboutHero() {
           initial="hidden"
           animate="visible"
         >
-          Who We Are
+          Powering The Future
         </motion.span>
 
         <motion.h1
@@ -109,8 +109,7 @@ export default function AboutHero() {
           initial="hidden"
           animate="visible"
         >
-          Jaipur's leading lithium-ion battery manufacturer, powering India's
-          electric future with cutting-edge energy solutions since 2019.
+          Based in Jaipur, Rajasthan, we are India's trusted manufacturer of advanced lithium-ion batteries. From Electric Vehicles and Solar Energy to custom OEM solutions, we deliver safe, reliable, and high-performance energy storage built for tomorrow.
         </motion.p>
 
         {/* Breadcrumbs */}

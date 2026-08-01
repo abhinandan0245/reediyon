@@ -147,7 +147,8 @@ export default function FAQ() {
       <section className="container mx-auto px-4 max-w-5xl py-12">
         {/* Search and Filters */}
         <div className="flex flex-col lg:flex-row gap-6 items-center justify-between mb-12 border-b border-white/5 pb-8">
-          <div className="relative w-full lg:w-96">
+          {/* Search Box - Fixed Width on Desktop */}
+          <div className="relative w-full lg:w-80 flex-shrink-0">
             <Search
               className="absolute left-4 top-1/2 -translate-y-1/2 text-zinc-500"
               size={18}
@@ -160,23 +161,31 @@ export default function FAQ() {
               className="w-full bg-[#060e06] border border-white/10 rounded-full py-3 pl-12 pr-4 text-white focus:outline-none focus:border-emerald-500/50 transition-colors"
             />
           </div>
-          <div className="flex flex-wrap items-center justify-center lg:justify-end gap-2 w-full lg:w-auto">
-            {categories.map((cat) => (
-              <button
-                key={cat}
-                onClick={() => {
-                  setActiveCategory(cat);
-                  setOpenIndex(null);
-                }}
-                className={`px-4 py-2 rounded-full text-sm font-medium transition-all ${
-                  activeCategory === cat
-                    ? "bg-emerald-600 text-white shadow-[0_0_15px_rgba(16,185,129,0.3)]"
-                    : "bg-[#060e06] text-zinc-400 hover:text-white border border-white/5 hover:border-emerald-500/30"
-                }`}
-              >
-                {cat}
-              </button>
-            ))}
+
+          {/* Filter Container - Robust Scroll Handling */}
+          <div
+            className="flex-1 w-full overflow-x-auto pb-2 scroll-smooth"
+            style={{ scrollbarWidth: "none", msOverflowStyle: "none" }}
+          >
+            {/* w-max forces all items in a single non-wrapping row without cutting the start */}
+            <div className="flex flex-nowrap items-center justify-start gap-2 w-max pr-4">
+              {categories.map((cat) => (
+                <button
+                  key={cat}
+                  onClick={() => {
+                    setActiveCategory(cat);
+                    setOpenIndex(null);
+                  }}
+                  className={`px-4 py-2 rounded-full text-sm font-medium transition-all flex-shrink-0 ${
+                    activeCategory === cat
+                      ? "bg-emerald-600 text-white shadow-[0_0_15px_rgba(16,185,129,0.3)] border border-emerald-500"
+                      : "bg-[#060e06] text-zinc-400 hover:text-white border border-white/10 hover:border-emerald-500/50"
+                  }`}
+                >
+                  {cat}
+                </button>
+              ))}
+            </div>
           </div>
         </div>
 
@@ -248,9 +257,10 @@ export default function FAQ() {
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a
               href="tel:+917742514313"
-              className="flex items-center justify-center gap-2 px-6 py-3 bg-white text-emerald-800 font-bold rounded-full hover:bg-zinc-100 transition-colors w-full sm:w-auto"
+              className="flex items-center justify-center gap-2 px-6 py-3 bg-white !text-emerald-950 font-bold rounded-full hover:bg-emerald-50 hover:shadow-[0_0_15px_rgba(255,255,255,0.3)] transition-all duration-300 w-full sm:w-auto active:scale-95"
             >
-              <Phone size={18} /> Call +91 77425 14313
+              <Phone size={18} className="!text-emerald-950" />
+              <span className="!text-emerald-950">Call +91 77425 14313</span>
             </a>
             <a
               href="https://wa.me/917742514313"

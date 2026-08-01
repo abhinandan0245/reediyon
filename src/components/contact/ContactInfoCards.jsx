@@ -40,6 +40,7 @@ const containerVariants = {
   hidden: { opacity: 0 },
   show: { opacity: 1, transition: { staggerChildren: 0.1 } },
 };
+
 const cardVariants = {
   hidden: { opacity: 0, y: 20 },
   show: { opacity: 1, y: 0, transition: { type: "spring", stiffness: 60 } },
@@ -60,9 +61,9 @@ export default function ContactInfoCards() {
             <motion.div
               key={idx}
               variants={cardVariants}
-              className="flex flex-col p-8 rounded-3xl bg-[#070b07] border border-[#163316] hover:border-green-500/50 hover:shadow-[0_0_30px_rgba(34,197,94,0.15)] transition-all duration-300"
+              className="flex flex-col p-8 rounded-3xl bg-[#070b07] border border-white/20 shadow-[0_10px_30px_rgba(255,255,255,0.1)] hover:border-white/40 hover:shadow-[0_0_40px_rgba(255,255,255,0.25)] transition-all duration-300"
             >
-              <div className="w-12 h-12 bg-green-950 rounded-full flex items-center justify-center text-green-500 mb-6 border border-green-900/50">
+              <div className="w-12 h-12 bg-green-950 rounded-full flex items-center justify-center text-white mb-6 border border-white/20">
                 {card.icon}
               </div>
               <h3 className="text-xl font-bold text-white mb-4">
@@ -78,7 +79,7 @@ export default function ContactInfoCards() {
               {card.action && (
                 <a
                   href={card.link}
-                  className="w-full text-center py-2.5 rounded-lg border border-[#163316] text-green-500 text-sm font-semibold hover:bg-green-500 hover:text-white transition-all"
+                  className="w-full text-center py-2.5 rounded-lg border border-white/20 text-white text-sm font-semibold hover:bg-white hover:!text-black hover:border-white transition-all duration-300"
                 >
                   {card.action}
                 </a>

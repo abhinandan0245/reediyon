@@ -55,9 +55,7 @@ export default function ProductsCTA() {
             <button className="w-full sm:w-auto px-8 py-3.5 rounded-full bg-white text-green-700 font-bold text-sm md:text-base shadow-[0_0_20px_rgba(255,255,255,0.3)] hover:shadow-[0_0_25px_rgba(255,255,255,0.5)] hover:scale-105 transition-all duration-300">
               Request Custom Quote
             </button>
-            <button className="w-full sm:w-auto px-8 py-3.5 rounded-full bg-transparent border-2 border-white text-white font-bold text-sm md:text-base hover:bg-white hover:text-green-700 hover:scale-105 transition-all duration-300">
-              Call: +91 77425 14313
-            </button>
+           
           </motion.div>
         </motion.div>
       </div>

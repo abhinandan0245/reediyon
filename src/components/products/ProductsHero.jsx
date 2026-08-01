@@ -37,22 +37,23 @@ export default function ProductsHero() {
           variants={itemVariants}
           className="uppercase tracking-[4px] text-xs md:text-sm font-semibold text-green-500 mb-4 drop-shadow-[0_0_8px_rgba(34,197,94,0.6)]"
         >
-          Product Catalog
+          Premium Lithium Solutions
         </motion.span>
 
         <motion.h1
           variants={itemVariants}
           className="text-4xl md:text-5xl lg:text-6xl font-extrabold text-white tracking-tight mb-6 drop-shadow-lg"
         >
-          Our Battery Solutions
+          Advanced Battery Solutions
         </motion.h1>
 
         <motion.p
           variants={itemVariants}
-          className="text-base md:text-lg text-zinc-300 max-w-2xl font-light leading-relaxed mb-8"
+          className="text-base md:text-lg text-zinc-300 max-w-3xl font-light leading-relaxed mb-8"
         >
-          Premium lithium-ion batteries for every application. All products
-          available for bulk B2B ordering with pan-India delivery.
+          High-performance lithium-ion batteries for electric vehicles, solar
+          energy systems, and industrial power storage. Specializing in custom
+          OEM manufacturing with pan-India bulk supply.
         </motion.p>
 
         {/* Breadcrumbs */}
